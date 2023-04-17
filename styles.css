@@ -224,17 +224,17 @@ a{
 }
 
 .more h3{
-    border: 2px solid var(--background);
+    border: 1px solid var(--background);
     border-radius: 10px;
-    background: var(--text);
-    color: white;
+    /* background: var(--text);
+    color: white; */
     text-align: center;
     display: flex;
     margin-top: 80px;
     padding: 20px;
     position: relative;
     align-items: center;
-    box-shadow: 0 0 5px 2px rgba(0, 0,0, 0.2);
+    box-shadow: 0 0 3px 1px rgba(0, 0,0, 0.2);
 }
 
 
@@ -288,6 +288,7 @@ a{
     .contact{
         gap: 5px;
         align-items: center;
+        justify-content: center;
     }
 }
 
