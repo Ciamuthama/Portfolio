@@ -130,8 +130,17 @@ a{
     padding: 0px 85px;
 }
 
-.project-1 h2, .project-2 h2{
+.project-1 h2,
+.project-2 h2, 
+.project-3 h2{
     text-decoration:underline;
+}
+
+.project-3{
+         display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 85px;
 }
 
 .project-2{
@@ -141,8 +150,6 @@ a{
     padding: 0px 85px;
     margin-top: 72px;
 }
-
-
 
 .section-1{
     display: flex;
@@ -158,6 +165,14 @@ a{
     margin-top: 30px;
 }
 
+.section-3{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+
 .description{
     outline: 1px solid var(--gray);
     outline-offset: 9px; 
@@ -166,7 +181,16 @@ a{
     padding: 20px;
 }
 
-
+code{
+    font-size: 14px;
+    font-family: 'Mukta';
+    background: #3c3c3c;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: normal;
+    margin-right: 2px;
+}
 
 .lang{
     padding: 20px 0px 0px 0px;
@@ -262,12 +286,14 @@ a{
     }
 
     .project-1,
-    .project-2{
+    .project-2,
+    .project-3{
         padding: 0px 20px;
     }
 
     .section-1,
-    .section-2{
+    .section-2,
+    .section-3{
         flex-wrap: wrap;
         gap: 0px;
     }
