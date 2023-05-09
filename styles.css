@@ -6,7 +6,7 @@
     --icon:rgb(196,167,149);
     --other:rgb(225,198,181);
     --gray:rgb(138,127,131) ;
-   --text-width:70ch ;
+    --text-width:70ch ;
 }
 
 html{
@@ -137,10 +137,11 @@ a{
 }
 
 .project-3{
-         display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0px 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 85px;
+    margin-top: 72px;
 }
 
 .project-2{
@@ -242,26 +243,6 @@ code{
     background-color:#ffd600;
     border: 1px solid;
 }
-
-.more{
-    display: flex;
-    justify-content: center;
-}
-
-.more h3{
-    border: 1px solid var(--background);
-    border-radius: 10px;
-    /* background: var(--text);
-    color: white; */
-    text-align: center;
-    display: flex;
-    margin-top: 80px;
-    padding: 20px;
-    position: relative;
-    align-items: center;
-    box-shadow: 0 0 3px 1px rgba(0, 0,0, 0.2);
-}
-
 
 @media screen and (max-width:1180px) {
 
